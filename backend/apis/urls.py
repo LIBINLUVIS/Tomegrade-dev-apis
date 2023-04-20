@@ -23,5 +23,6 @@ urlpatterns = [
     path('api/bundleadded/',views.addbundlecart,name='addbundlecart'),
     path('api/bundleremove/<int:pk>/',views.bundlebookremove,name='bundleremove'),
     path('api/checkoutdetails/',views.checkoutdetails,name='checkoutdetails'),
+    # path('api/payment/',views.payment,name='payment')
     
 ]

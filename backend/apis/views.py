@@ -225,6 +225,16 @@ def checkoutdetails(request):
     return Response("User data saved")
 
 
+# @api_view(['POST'])
+# def createpayment(request):
+#     payment=stripe.PaymentIntent.create(
+#     amount=1000, currency='pln', 
+#     payment_method_types=['card'],
+#     receipt_email='test@example.com')
+
+#     return Response("Payment initialet")
+
+
 
 
 
